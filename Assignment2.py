@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+# Write a program to print fibonacci series upto n terms in python
+num = 10
+n1, n2 = 0, 1
+print("Fibonacci Series:", n1, n2, end=" ")
+for i in range(2, num):
+    n3 = n1 + n2
+    n1 = n2
+    n2 = n3
+    print(n3, end=" ")
+
+print()
+
+
+# In[ ]:
+
+
+
+
